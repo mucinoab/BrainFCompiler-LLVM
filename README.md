@@ -3,8 +3,9 @@ A [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) toy compiler that generat
 
 ## Requirements
 
-- OS ~Linux
-- Linker [gcc](https://gcc.gnu.org/)
+- ~Linux
+- [LLVM](https://llvm.org/)
+- [gcc](https://gcc.gnu.org/)
 - [Rust](https://www.rust-lang.org/)
 
 

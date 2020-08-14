@@ -1,5 +1,5 @@
 [package]
-name = "comp2"
+name = "brainfuck-llvm"
 version = "0.1.0"
 authors = ["Bruno Muciño <mucinoab@gmail.com>"]
 edition = "2018"

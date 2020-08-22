@@ -37,7 +37,7 @@ impl<'a> Types<'a> {
 }
 
 fn main() {
-    let source = env::args().nth(1).unwrap();
+    let source = env::args().nth(1).expect("No source file name provided.");
     let program = fs::read_to_string(&source).expect("Source file not found.");
     let source = &source.trim_end_matches(".bf");
 

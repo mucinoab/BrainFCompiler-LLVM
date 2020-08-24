@@ -1,11 +1,12 @@
 # BrainFCompiler-LLVM
 A [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) toy compiler that generates an ELF file through [LLVM](https://en.wikipedia.org/wiki/LLVM) and links it using gcc.
 
+
 ## Requirements
 
 - ~Linux
 - [LLVM](https://llvm.org/)
-- [gcc](https://gcc.gnu.org/)
+- [Clang](https://en.wikipedia.org/wiki/Clang)
 - [Rust](https://www.rust-lang.org/)
 
 

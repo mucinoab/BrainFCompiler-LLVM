@@ -155,7 +155,7 @@ fn main() {
         .write_to_file(&module, FileType::Object, source.as_ref())
         .expect("Writing EFL File.");
 
-    Command::new("gcc")
+    Command::new("clang")
         .args(&[source, "-Ofast"])
         .status()
         .expect("Linking.");

@@ -13,3 +13,8 @@ A [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) toy compiler that generat
 
 You just clone the repo and run, ```cargo run --release _sourcefile.bf_```
 
+
+
+#### Related
+My other brainfuck compiler. [mucinoab/BrainFCompiler](https://github.com/mucinoab/BrainFCompiler) 
+
